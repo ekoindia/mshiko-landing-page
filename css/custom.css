@@ -20,7 +20,10 @@ body {
 
 .accent {
 	color:#11cec2;
-	fill:#11cec2;
+}
+
+svg.accent {
+	stroke:#11cec2;
 }
 
 .container {
