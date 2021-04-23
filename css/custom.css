@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/Group-8.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	line-height: 2;
+}
+
+.txtlogo {
+	font-weight: 300;
+	font-size: 40px;
+	padding: 10px 30px 0 0;
+}
+
+.accent {
+	color:#11cec2;
+	fill:#11cec2;
+}
+
+.container {
+	padding-bottom: 50px;
+}
+
+
+#logo {
+	position: absolute;
+	height: 70px;
+	top: 30px;
+	left: 60px;
+	z-index:9999;
+}
+
+.section {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+p {
+	font-weight:300;
+	color: #333;
+	font-size: 1.1em;
+}
+
+.imgTallPoster{
+	max-height: 80vh;
+}
+
+.td {
+	padding: 10px 5%;
+}
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+	.narrowrow {
+		padding: 0 10%;
+	}
+
+	.section {
+		padding-top: 20px;
+		padding-bottom: 100px;
+	}
+
+	.toppad {
+		margin-top: 50px;
+	}
+
+}
+
+
